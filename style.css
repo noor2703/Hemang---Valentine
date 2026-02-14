@@ -1,0 +1,46 @@
+body{
+margin:0;
+font-family:system-ui;
+background:linear-gradient(#ffd6e8,#fff);
+text-align:center;
+}
+
+.hidden{display:none;}
+
+.landing{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+button{
+padding:14px 22px;
+border:none;
+border-radius:30px;
+background:#ff4d6d;
+color:white;
+font-size:16px;
+margin:10px;
+}
+
+.gallery img{
+width:110px;
+margin:10px;
+border-radius:15px;
+box-shadow:0 6px 14px rgba(0,0,0,.2);
+}
+
+#days{
+font-size:60px;
+color:#ff2e63;
+}
+
+.q{
+background:white;
+margin:20px;
+padding:15px;
+border-radius:20px;
+box-shadow:0 6px 14px rgba(0,0,0,.1);
+}
